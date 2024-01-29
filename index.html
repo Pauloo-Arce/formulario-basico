@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario Básico</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/ff0cbbe769.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section class="container">
+      <article class="box-info">
+        <h1>Contacta con nosotros</h1>
+
+        <div class="data">
+          <p><i class="fa-solid fa-phone"></i>+54 353 4112011</p>
+          <p><i class="fa-solid fa-envelope"></i>juancito@gmail.com</p>
+          <p><i class="fa-solid fa-location-dot"></i>AV. San Juan 500</p>
+        </div>
+
+        <div class="links">
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+
+      </article>
+      <form class="form">
+        <div class="input-box">
+          <input type="text" required placeholder="Nombre y Apellido"/>
+           <i class="fa-solid fa-user"></i>
+        </div>
+        <div class="input-box">
+          <input type="email" required placeholder="Correo Electrónico"/>
+          <i class="fa-solid fa-envelope"></i>
+        </div>
+        <div class="input-box">
+          <input type="text" required placeholder="Asunto"/>
+          <i class="fa-solid fa-pen-to-square"></i>
+        </div>
+        <div class="input-box">
+          <textarea cols="30" rows="10" placeholder="Escribe tu mensaje..."></textarea>
+        </div>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </body>
+</html>
